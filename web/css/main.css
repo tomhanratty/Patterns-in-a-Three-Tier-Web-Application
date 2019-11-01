@@ -1,0 +1,556 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+
+
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+body{
+
+    background: url(../img/bg1.png);
+}
+
+
+
+.navbar-header{
+    padding-right:0px;
+}
+
+.navbar{
+    font-size: 16px;
+}
+
+.navbar li:hover,  .navbar li:active{
+
+    background-color: darkslategray;
+    border-radius: 10px;
+    transition: background-color 0.6s ease;
+
+}
+
+
+
+
+
+.con{
+    background-image: url(../img/boxbgnew.jpg);
+    border:3px solid white;
+    width: 560px;
+    margin:0 auto;
+    padding: 25px;
+    box-shadow: 4px 4px 4px rgba(0,0,0,0.4);
+    border-radius:10px;
+}
+
+
+.con input{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 330px;
+    height: 24px;
+    text-align: center;
+}
+
+
+
+#sign{
+    text-align: center;
+    text-decoration:underline;
+    text-transform: uppercase;
+    color: white;
+    font-family: LaMacchina;
+    font-weight: bold
+}
+
+
+.label1{
+    margin-bottom: 0px;
+}
+
+
+
+
+#button{
+    border: 2px solid black;
+    border-radius: 5px;
+    color: black;
+    list-style-type: none;
+    padding: 2px;
+    margin-top: 11px;
+    height: 28px;
+    text-decoration: none;
+    width: 160px;
+    text-align: center;
+    background-color: inactiveborder;
+    font-size: 18px;
+
+}
+
+#button:hover{
+    background-color: goldenrod;
+    color: white;
+    transition: background-color 0.5s ease;
+
+}
+
+#signup{
+    color: white;
+    font-weight: bold
+}
+
+
+#account{
+    font-weight: bold;
+    text-decoration:underline;
+    text-transform: uppercase;
+    color: greenyellow;
+
+}
+#account:hover{
+
+    color: blue;
+
+}
+
+
+
+
+
+
+
+#StyledSelect {
+    border: 1px solid black;
+    margin: 7px;
+    background: url(../img/irish.png) ;   
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    width: 130px;
+    padding: 2px;
+    color: black;
+    text-align: center;
+    font-weight:800;
+}
+
+#StyledSelect:hover {
+
+    background-color: purple;
+}
+
+
+
+
+
+
+#notlogged{
+    padding: 4px;
+    color: #a6e1ec;
+    text-align: center;
+    margin-bottom: -15px;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* On All Pages. Div B-G Color. CopyRight */
+#popper{
+    border: 1px solid white;
+    background-image: linear-gradient(black, #222);
+    background-color: #222;
+    height: 160px;
+}
+
+/* On All Pages. bottomCopyRight */
+footer{
+    text-align: center;
+    color: white; 
+    font-size: 1em;
+}
+
+
+/* On All Pages. Lamborghini Logo copyright */
+#logoLib{
+    margin-right: 64px;
+    float: right;
+    width: 150px;
+    height: 130px;
+    padding-right: 0px;
+}
+
+/* On All Pages. copyright */
+#footerlogo{
+    margin-left: -120px;
+    float: right;
+    width: 280px;
+    height: 140px;
+}
+
+
+
+/* On All Pages. copyright */
+.author{
+    padding-top: 28px;
+    padding-bottom:0px;
+    text-align: center;
+    font-size: 17px;
+    width: 900px;
+}
+
+
+#footertext{
+    float: right;
+    margin-right: 15px;
+    text-decoration: underline;
+}
+
+
+
+#greeting{
+    font-weight: bold;
+    text-shadow: 4px 4px 5px blue;
+    text-align: center;
+    color: white;
+    font-family: cursive;
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+#greeting2{
+    font-weight: bold;
+    text-shadow: 2px 2px 2px grey;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+
+.buttons{
+    background-image: url(../img/buttonpic.gif);
+    font-size: 14px;
+    border: 3px solid black;
+    width: 160px;
+    height: 30px;
+    color: white;
+}
+
+.buttons:hover{
+    background-color: white;
+    color: red;
+    transition: color 0.6s ease;
+}
+
+
+.greeting3{
+    background-image: url(../img/buttonpic.gif);
+    border: 2px dotted white;
+    width: 570px;
+    text-align: left;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px grey;
+    text-align: center;
+    color: white;
+    font-size: 26px;
+}
+
+
+
+
+.buttons2{
+    background-color: goldenrod;
+    font-size: 15px;
+    border: 2px dotted black;
+    width: 260px;
+    height: 38px;
+    color: purple;
+    font-weight: bold;
+}
+
+.buttons2:hover{
+    background-color: yellow;
+    color: red;
+    transition: color 0.6s ease;
+}
+
+
+
+
+.con2{
+    background-image: url(../img/updatepic2.jpg);
+    border:3px solid white;
+    width: 600px;
+    margin:0 auto;
+    padding: 25px;
+    box-shadow: 4px 4px 4px rgba(0,0,0,0.4);
+    border-radius:20px;
+}
+
+.con2 label{
+    padding: 2px;
+    border : 1px solid white;
+    width: 200px;
+    color: white;
+    background-color: #101010;
+    font-weight: bold;
+
+
+}
+
+.con2 input{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 290px;
+    height: 24px;
+    text-align: center;
+}
+
+#sign2{
+    text-align: center;
+    margin-top: 0px;
+    text-decoration:underline;
+    text-transform: uppercase;
+    color: white;
+    font-family: LaMacchina;
+    font-weight: bold
+}
+
+
+/*books*/
+#allbookstitle{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 4px 4px 4px red;
+    font-family: monospace;
+    font-size: 46px;
+}
+
+
+#allbooks {
+    background-image: url('../img/updatepic2.jpg');
+    font-family: sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+
+}
+
+#allbooks td, #allbooks th {
+    border: 2px groove white;
+    padding: 8px;
+}
+
+
+
+#allbooks th {
+    background-image: url('../img/buttonpic.gif');
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    font-size: 20px;
+    background-color: red;
+    color: white;
+}
+
+#allbooks a{
+    color: #20BAC6;
+    text-decoration: underline;
+
+}
+#allbooks a:hover{
+    color: yellow;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-decoration: underline;
+
+}
+
+#bookimage{
+    margin-right: 0px;
+    width: 270px;
+    height: 400px;
+}
+
+
+#bookimage2{
+    border: 1px solid white;
+    margin-left: 57px;
+    width: 35px;
+    height: 60px;
+}
+
+#onebook {
+    background-image: url('../img/updatepic2.jpg');
+    padding-top: 1px;
+    padding-bottom: 12px;
+    text-align: center;
+    font-size: 20px;
+    background-color: red;
+    color: white;
+}
+
+
+#onebook td, #onebook th {
+    border: 2px groove white;
+    padding: 8px;
+}
+
+
+
+#onebook th {
+    background-image: url('../img/buttonpic.gif');
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    font-size: 20px;
+    background-color: red;
+    color: white;
+}
+
+
+.buttonLoan{
+
+    margin-top: 27px;
+    margin-bottom: 40px;
+    background-color: goldenrod;
+    font-size: 15px;
+    border: 2px dotted black;
+    width: 260px;
+    height: 38px;
+    color: purple;
+    font-weight: bold;
+}
+
+.buttonLoan:hover{
+    background-color: yellow;
+    color: red;
+    transition: background-color 0.6s ease;
+}
+
+
+
+#allloans {
+    background-color: #421A92;
+    font-family: sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+
+}
+
+#allloans td, #allloans th {
+    border: 2px groove white;
+    padding: 8px;
+}
+
+
+
+#allloans th {
+    background-color: #191129;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    font-size: 20px;
+    color: white;
+}
+
+#allloans a{
+    color: gold;
+    text-decoration: underline;
+
+}
+#allloans a:hover{
+    color: lime;
+    font-size: 19px;
+    text-transform: uppercase;
+    text-decoration: underline;
+
+}
+
+#minimessage{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    
+}
+#errorpage{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#minimessage2{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#textarea{
+    color: black;
+    width: 100%;
+    margin-bottom: 0px;
+    font-size: 20px;
+    text-align: center;
+    background-color: lime;
+    border: 2px solid black;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+
+/*review*/
+
+.buttons3{
+    background-image: url(../img/buttonpic.gif);
+    font-size: 18px;
+    border: 2px solid white;
+    width: 190px;
+    height: 30px;
+    color: white;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+.buttons3:hover{
+    background-color: white;
+    color: red;
+    transition: color 0.6s ease;
+}
